@@ -1,0 +1,72 @@
+div.header{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    background-color:transparent;
+    box-shadow: -20px 3px 10px rgba(0,0,0,0.5);
+    align-items: center;
+    padding: 10px;
+}
+
+div.logo{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+form.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    flex-grow: 0.5;
+}
+
+input.search-input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+    min-width: 50%;
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+input.search-btn{
+    display: none;
+}
+
+ul.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+ul.links li{
+    background-color: transparent;
+    margin: 3px;
+    padding: 2px;
+}
+
+ul.links li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+ul.links li a:active{
+    color: yellowgreen;
+    border-bottom: 3px solid green;
+}
+
+ul.links li a:active:focus{
+    width: 20px;
+}
