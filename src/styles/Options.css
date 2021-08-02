@@ -1,0 +1,32 @@
+.options{
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    background: rgba(255,255,255,0.25);
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+}
+
+.options::-webkit-scrollbar{
+    width: 0 !important;
+}
+
+.option{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15px;
+    text-shadow: 2px 2px 10px rgba(248, 9, 9, 0.8);
+    cursor: pointer;
+    transition: transform .1s linear;
+}
+
+.option:active{
+    color: pink;
+}
+
+.option:hover{
+    transform: scale(1.1,1.1);
+}

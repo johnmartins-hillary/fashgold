@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 function Header() {
     return (
         <div className="header">
-            <div class="logo">Fasearch</div>
+            <div class="logo">Fashgold</div>
             <form action="" class="search-container">
                 <input type="text" class="search-input" placeholder="search"/>
                 <input type="button" value="search" class="search-btn"/>
@@ -15,6 +15,8 @@ function Header() {
                 <li><Link to='/about'>About</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
                 <li><Link to='/'>faq's</Link></li>
+                <li><Link to='/SignUp'>SignUp</Link></li>
+                <li><Link to='/LogIn'>LogIn</Link></li>
             </ul>
             <div class="toggle"></div>
         </div>

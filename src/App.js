@@ -8,6 +8,8 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
 import Header from './components/Header';
+import SignUp from './components/SignUp';
+import LogIn from './components/LogIn';
 
 
 function App() {
@@ -22,6 +24,14 @@ function App() {
           <Route path="/contact">
            <Header />
            <Contact />
+          </Route>
+          <Route path="/SignUp">
+           <Header />
+           <SignUp />
+          </Route>
+          <Route path="/LogIn">
+           <Header />
+           <LogIn />
           </Route>
           <Route path="/">
             <Header />
