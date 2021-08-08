@@ -1,79 +1,78 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:wght@700&display=swap");
 
-
-div.header{
-    position: sticky;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 40px;
-    background-color:transparent;
-    box-shadow: -20px 3px 10px rgba(0,0,0,0.5);
-    align-items: center;
-    padding: 10px;
+div.header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  box-shadow: -20px 3px 10px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  padding: 10px;
 }
 
-div.logo{
-    color: gold;
-    font-family: sans-serif;
-    font-size: 2em;
-    text-shadow: 1px 1px 5px rgba(255, 255, 255, 1);
-    text-transform: uppercase;
-    align-items: center;
-    font-family: 'Dancing Script', cursive;
+div.logo {
+  color: gold;
+  font-family: sans-serif;
+  font-size: 2em;
+  text-shadow: 1px 1px 5px rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  align-items: center;
+  font-family: "Dancing Script", cursive;
+  cursor: pointer;
 }
 
-form.search-container{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    flex-grow: 0.5;
+form.search-container {
+  flex: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
 }
 
-input.search-input{
-    flex: 1;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    width: 100%;
-    min-width: 50%;
-    text-align: left;
-    padding: 5px;
-    color: black;
-    background-color: #fff;
+input.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 50%;
+  text-align: left;
+  padding: 5px;
+  color: black;
+  background-color: #fff;
 }
 
-input.search-btn{
-    display: none;
+input.search-btn {
+  display: none;
 }
 
-ul.links{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-transform: uppercase;
-    list-style-type: none;
+ul.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  list-style-type: none;
 }
 
-ul.links li{
-    background-color: transparent;
-    margin: 3px;
-    padding: 2px;
+ul.links li {
+  background-color: transparent;
+  margin: 3px;
+  padding: 2px;
 }
 
-ul.links li a{
-    text-decoration: none;
-    cursor: pointer;
-    color: #fff;
+ul.links li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
 }
 
-ul.links li a:active{
-    color: yellowgreen;
-    border-bottom: 3px solid green;
+ul.links li a:active {
+  color: yellowgreen;
+  border-bottom: 3px solid green;
 }
 
-ul.links li a:active:focus{
-    width: 20px;
+ul.links li a:active:focus {
+  width: 20px;
 }

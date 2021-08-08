@@ -1,12 +1,12 @@
-import React from 'react'
-import AppBody from "./AppBody"
+import React from "react";
+import AppBody from "./AppBody";
 
 function Home() {
-    return (
-        <div className="home">
-             <AppBody />
-        </div>
-    )
+  return (
+    <div className="home">
+      <AppBody />
+    </div>
+  );
 }
 
-export default Home
+export default Home;

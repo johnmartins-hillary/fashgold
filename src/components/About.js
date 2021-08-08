@@ -1,13 +1,10 @@
-import React from 'react'
-import '../styles/About.css'
-
+import React from "react";
+import "../styles/About.css";
 
 function About() {
-    return (
-        <div className="about">
-           
-        </div>
-    )
+  return <div className="about">
+      
+  </div>;
 }
 
-export default About
+export default About;
